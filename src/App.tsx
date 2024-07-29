@@ -1,24 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
-function App() {
+function App(): React.ReactElement {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="hero bg-base-200 min-h-screen">
+      <div className="hero-content text-center">
+        <div className="max-w-md">
+          <h1 className="text-5xl font-bold">Hook Playground</h1>
+          <p className="py-9">Not an actual project, just a showcase for how hooks can be used to reduce the complexity of components in React</p>
+        </div>
+      </div>
     </div>
   );
 }

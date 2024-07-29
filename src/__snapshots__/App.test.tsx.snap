@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders learn react link 1`] = `
+<div>
+  <div
+    class="hero bg-base-200 min-h-screen"
+  >
+    <div
+      class="hero-content text-center"
+    >
+      <div
+        class="max-w-md"
+      >
+        <h1
+          class="text-5xl font-bold"
+        >
+          Hook Playground
+        </h1>
+        <p
+          class="py-9"
+        >
+          Not an actual project, just a showcase for how hooks can be used to reduce the complexity of components in React
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
