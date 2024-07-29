@@ -37,7 +37,7 @@ const StatTable: React.FC<PokeProps> = ({ id, types, height, weight, loading, er
 }
 
 const LoadingSpinner: React.FC = () => (
-  <span className="loading loading-dots loading-lg"></span>
+  <span data-testid="loading" className="loading loading-dots loading-lg"></span>
 );
 
 
