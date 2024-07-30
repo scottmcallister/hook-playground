@@ -6,6 +6,7 @@ const usePokemon = (pokemonId: number) => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(false);
   useEffect(() => {
+    setLoading(true);
     fetch(`https://pokeapi.co/api/v2/pokemon/${pokemonId}`)
       .then(res => res.json())
       .then(data => {
